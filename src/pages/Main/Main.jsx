@@ -8,12 +8,6 @@ const Main = () => {
     return (
         <Layout>
             <Header/>
-            <Tabs defaultActiveKey="2">
-                <TabPane tab="Add Task" key="1" ><AddTask/></TabPane>
-                <TabPane tab="ToDo Tasks" key="2" />
-                <TabPane tab="In Progress Tasks" key="3" />
-                <TabPane tab="Pending Tasks" key="4" />
-            </Tabs>
         </Layout>
     );
 }

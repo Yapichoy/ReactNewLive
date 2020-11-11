@@ -1,21 +1,32 @@
-import { PageHeader, Tabs, Button } from 'antd';
-import AddTask from "../../pages/AddTask/AddTask";
-const { TabPane } = Tabs;
+import React from "react";
+import { Row, Col, Layout, Button } from 'antd';
+import s from "./header.module.css";
+const { Header, Content, Footer} = Layout;
 
-const Header = () => {
+const HeaderWrapper = () => {
+    let auth;
+    let isLoggedIn = false;
+    if (isLoggedIn) {
+        auth = <div className="">Email</div>
+    } else {
+        auth = <div><a href="javascript:void(0)">Вход</a>/<a href="javascript:void(0)">Регистрация</a></div>
+    }
     return (
-        <PageHeader
-            className="site-page-header-responsive lightcoral "
-            extra={[
-                <Button key="3">Operation</Button>,
-                <Button key="2">Some</Button>,
-                <Button key="1" type="primary">
-                    Settings
-                </Button>,
-            ]}
+        <Header
+            className="site-page-header-responsive white"
         >
-        </PageHeader>
+            <Row>
+                <Col span={8}><div className="logo" >Logo</div></Col>
+                <Col span={8}></Col>
+                <Col span={8}>
+                    <Row>
+                        <Col span={12}>{auth}</Col>
+                        <Col span={12}><Button type="primary">+ Подать объявление</Button></Col>
+                    </Row>
+                </Col>
+            </Row>
+        </Header>
     );
 }
 
-export default Header;
+export default HeaderWrapper;
