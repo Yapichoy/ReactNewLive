@@ -5,7 +5,6 @@ import { Form,
     Checkbox,
     Button,
     AutoComplete, } from 'antd';
-import style from "../../pages/Auth/Auth.module.css";
 import {NavLink} from "react-router-dom";
 
 const { Option } = Select;

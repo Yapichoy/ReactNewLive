@@ -1,7 +1,6 @@
-// import './App.css';
+// import './App.sass';
 import { Form, Input, Button, Checkbox } from 'antd';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
-import style from "../../pages/Auth/Auth.module.css";
 import {NavLink} from "react-router-dom";
 
 const Login = () => {

@@ -12,6 +12,7 @@
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
     "immutable": "^4.0.0-rc.12",
+    "node-sass": "^4.14.1",
     "react": "^17.0.1",
     "react-color-picker": "^4.0.2",
     "react-dom": "^17.0.1",

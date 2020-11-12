@@ -1,13 +1,13 @@
 import Header from "../../components/Header/Header";
-import {Layout, Tabs} from 'antd';
-import AddTask from "../AddTask/AddTask";
-const { TabPane } = Tabs;
+import {Layout} from 'antd';
+import Finder from "../../components/Finder/Finder";
 
 
 const Main = () => {
     return (
-        <Layout>
+        <Layout style={{background: "#fff"}}>
             <Header/>
+            <Finder/>
         </Layout>
     );
 }
