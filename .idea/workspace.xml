@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a85826e-eba3-4aac-8f1c-68bbb5ed9082" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Item/Item.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.sass" afterDir="false" />
@@ -108,6 +109,8 @@
       <workItem from="1605080746066" duration="4563000" />
       <workItem from="1605095794373" duration="5837000" />
       <workItem from="1605179908437" duration="4367000" />
+      <workItem from="1605237229036" duration="59000" />
+      <workItem from="1605433479770" duration="5454000" />
     </task>
     <servers />
   </component>
@@ -127,6 +130,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="532" y="219" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605443718161">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="532" y="219" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1605443718161" />
     <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605099764292">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

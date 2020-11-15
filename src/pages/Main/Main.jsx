@@ -2,6 +2,7 @@ import Header from "../../components/Header/Header";
 import {Layout} from 'antd';
 import Finder from "../../components/Finder/Finder";
 import Navigation from "../../components/Navigation/Navigation";
+import Section from "../../components/Section/Section";
 
 
 const Main = () => {
@@ -10,6 +11,7 @@ const Main = () => {
             <Header/>
             <Finder/>
             <Navigation/>
+            <Section />
         </Layout>
     );
 }
